@@ -2,7 +2,7 @@
 var User = window.prompt("What is your name?");
 
   if(User.length >= 1) {
-    console.log("Hi " + User);
+    console.log("Hi " + User + "!");
   } else {
     console.log("Okay, I'll just call you User.");
 };
