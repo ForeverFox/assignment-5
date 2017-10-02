@@ -45,7 +45,11 @@ document.getElementById('BtnDonate').addEventListener('click', function(){
 
         case "Demosthenes":
           console.log(demosthenesSpeech.author + " was " + demosthenesSpeech.authorAge + " during this speech.");
-          break;   
+          break;
+
+        default:
+          console.log("Try again.")
+          break;
     }
 });
 
